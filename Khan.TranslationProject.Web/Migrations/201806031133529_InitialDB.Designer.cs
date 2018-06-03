@@ -6,14 +6,14 @@ namespace Khan.TranslationProject.Web.Migrations
     using System.Data.Entity.Migrations.Infrastructure;
     using System.Resources;
     
-    [GeneratedCode("EntityFramework.Migrations", "6.1.0-30225")]
+    [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
     public sealed partial class InitialDB : IMigrationMetadata
     {
         private readonly ResourceManager Resources = new ResourceManager(typeof(InitialDB));
         
         string IMigrationMetadata.Id
         {
-            get { return "201806011030001_InitialDB"; }
+            get { return "201806031133529_InitialDB"; }
         }
         
         string IMigrationMetadata.Source

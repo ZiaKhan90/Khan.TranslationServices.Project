@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModelLayer", "ModelLayer", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApiLayer", "WebApiLayer", "{7A8B5BF2-BB14-4B95-8A38-5DD0F4F3F1CC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{AA0DC5E8-0BA0-44B2-9435-5213A3D78C69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3B1E7D4D-24D6-4E82-9915-5E9871B7569C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +38,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F7AEEC7-9631-47A7-AC04-FC545A4BF1A7} = {AA0DC5E8-0BA0-44B2-9435-5213A3D78C69}
+		{B4DAAF74-3080-4125-869D-7983005945FD} = {3B1E7D4D-24D6-4E82-9915-5E9871B7569C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {79EB3E79-1584-467F-9CE6-E45BB7458C7F}
