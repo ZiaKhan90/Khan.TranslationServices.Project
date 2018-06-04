@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khan.TranslationProject.Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khan.TranslationProject.Model", "Khan.TranslationProject.Model\Khan.TranslationProject.Model.csproj", "{498921F3-197B-4D00-86A9-5C25210C1825}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khan.TranslationProject.Business", "Khan.TranslationProject.Business\Khan.TranslationProject.Business.csproj", "{DCB671D4-8857-4989-B67A-22820C5783F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{498921F3-197B-4D00-86A9-5C25210C1825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{498921F3-197B-4D00-86A9-5C25210C1825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{498921F3-197B-4D00-86A9-5C25210C1825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB671D4-8857-4989-B67A-22820C5783F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB671D4-8857-4989-B67A-22820C5783F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB671D4-8857-4989-B67A-22820C5783F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB671D4-8857-4989-B67A-22820C5783F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +62,7 @@ Global
 		{B4DAAF74-3080-4125-869D-7983005945FD} = {3B1E7D4D-24D6-4E82-9915-5E9871B7569C}
 		{EC01CF31-7A19-40BB-8F47-DE7041B66505} = {6AA1449B-C59E-42C0-B1EE-57AE0B10EEE5}
 		{498921F3-197B-4D00-86A9-5C25210C1825} = {5C959D28-BA38-462B-81AC-C8B539C89CA3}
+		{DCB671D4-8857-4989-B67A-22820C5783F7} = {91F10638-B030-4CB9-8A6A-E6B65F064029}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45

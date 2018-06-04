@@ -13,7 +13,6 @@ namespace Khan.TranslationProject.Data.EntityConfiguration
         {
             ToTable("Address");
             HasKey(x => x.Id);
-            
         }
     }
 }
