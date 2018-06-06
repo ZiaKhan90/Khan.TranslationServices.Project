@@ -1,3 +1,4 @@
 
 Add webapi cors package in web application
 update newton soft in application
+config.EnableCors(new EnableCorsAttribute("http://localhost:64522", headers: "*", methods: "*")); add this to webapiconfig.cs
